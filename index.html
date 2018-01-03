@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="main.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+		<img src="header.png" id="header_pic"/>
+	</div>
+	<div id="heading">
+		<h1>Welcome To Canteen Management System</h1>
+	</div>
+	<div id="main">
+		<div id="left">
+<form id="form1" method="post" action="index_processor.php">
+  <table>
+	  <caption>Admin Login</caption>
+    <tr>
+      <td>Username</td>
+      <td><label>
+        <input type="text" name="admin_username" required/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td><label>
+        <input type="password" name="admin_password" required/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><label>
+        <input type="submit" name="admin_submit" value="Login" />
+      </label></td>
+    </tr>
+  </table>
+</form>
+
+<form action="index_processor.php" method="post">
+  <table>
+	  <caption>Cashier Login</caption>
+    <tr>
+      <td>Reg Number </td>
+      <td><label>
+        <input type="text" name="student_reg_number" required/>
+      </label></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td><label>
+        <input type="password" name="student_password" required/>
+      </label></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><label>
+        <input type="submit" name="student_submit" value="Login" />
+      </label></td>
+    </tr>
+  </table>
+</form>
+</div>
+		<div id="right">
+			<img src="logo.png" id="right_img"/>
+		</div>
+	</div>
+	<div id="footer">
+		<li>ZIMBABWE POWER COMPANY</li>
+	</div>
+</div>
+</body>
+</html>

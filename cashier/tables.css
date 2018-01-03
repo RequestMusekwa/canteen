@@ -1,0 +1,44 @@
+/* CSS Document */
+table{
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
+	background-color:#CCCCCC;
+	border-radius:3px;
+}
+
+caption{
+	font-size:20px;
+}
+
+.heading tr:nth-child(1){
+	background-color:#666666;
+}
+
+#wider{
+	width:96%;
+	margin-left:2%;
+	margin-right:2%;
+}
+
+label, textarea{
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+}
+
+input[type="submit"], input[type="reset"]{
+	color:lightgray;
+	font-size:16px;
+	background-color:#333333;
+	border:groove 2px gray;
+	border-radius:2px;
+	margin-left:15px;
+	width:115px;
+}
+
+/*for a static button*/
+#static{
+	float:left;
+	margin-left:0px;
+}

@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+	margin-left:150px;
+	margin-right:150px;
+	width:550;
+	border: solid 5px gray;
+	border-radius: 5px;
+}
+
+#header_pic{
+	width: 100%;
+}
+
+#heading{
+	text-align: center;
+	text-shadow: 5px;
+}
+
+#main{
+	background-color: red;
+	height: 300px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#left{
+	border: solid 1px navy;
+	background-color: gray;
+	width: 40%;
+	display: inline-block;
+	float: left;
+	height: 290px;
+	border-radius: 2px;
+}
+
+#right{
+	border: ridge 2px navy;
+	float: left;
+	width: 40%;
+	margin-left: 120px;
+	border-radius: 2px;
+	background-color: lightgray;
+}
+
+#right_img{
+	height: 290px;
+	width: 100%;
+}
+
+#footer{
+	text-align: center;
+	height: 80px;
+	background-color: #0000FF;
+}
+
+#footer li{
+	display: inline;
+	text-decoration-line: underline;
+}
+
+form{
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #D3D3D3;
+	border-radius: 2px;
+}
+
+/*===============the a link ============================*/
+a{
+	text-decoration:none;
+	font-style:italic;
+	border:1px double navy;
+	border-radius:3px;
+	background-color:navy;
+	padding-left:3px;
+	padding-right:3px;
+	color:white;
+}

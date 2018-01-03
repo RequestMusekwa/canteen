@@ -1,0 +1,148 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*===================house keeping staff===========================*/
+#container{
+	margin-left:150px;
+	margin-right:150px;
+	width:550;
+	border: solid 5px navy;
+	border-radius: 5px;
+}
+
+#header{
+	border-bottom:2px solid navy;
+}
+
+#header_pic{
+	width: 100%;
+}
+
+#heading{
+	text-align: center;
+	text-shadow: 5px;
+}
+
+#main{
+	background-color: #D3D3D3;
+	height: 410px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#content{
+	border: solid 1px navy;
+	background-color: red;
+	width: 73%;
+	display: inline-block;
+	float: left;
+	height: 400px;
+	border-radius: 2px;
+}
+
+#right_img{
+	height: 290px;
+	width: 100%;
+}
+
+#footer{
+	text-align: center;
+	height: 40px;
+	background-color: red;
+}
+
+#footer li{
+	display: inline;
+	text-decoration-line: underline;
+}
+
+form{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #D3D3D3;
+	border-radius: 2px;
+}
+
+#menu{
+	background-color: whitesmoke;
+	height: 400px;
+	padding-top: 2px;
+	text-align: center;
+	width: 200px;
+	border: ridge 2px navy;
+	float: left;
+	margin-left: 20px;
+	border-radius: 2px;
+}
+
+#menu a{
+	font-size:15px;
+	border:3px ridge #D3D3D3;
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	margin-top:1px;
+	padding-top:20px;	
+	height:35px;
+	color:white;
+	background-color:navy;
+}
+
+iframe{
+	background-color: whitesmoke;
+	border: solid 2px whitesmoke;
+}
+/*=====================house keeping staff done================*/
+
+/*=========================tables time =======================*/
+
+table{
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+	background-color:#CCCCCC;
+	border-radius:3px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+caption{
+	font-size:25px;
+}
+
+.heading tr:nth-child(1){
+	background-color:#666666;
+}
+
+#wider{
+	width:96%;
+	margin-left:2%;
+	margin-right:2%;
+	font-size:75%;
+}
+
+select, input[type="text"], input[type="email"]{
+	width:248px;
+}
+
+input[type="submit"], input[type="reset"]{
+	color:lightgray;
+	font-size:16px;
+	background-color:#333333;
+	border:groove 2px gray;
+	border-radius:2px;
+	margin-left:5px;
+	width:115px;
+}
